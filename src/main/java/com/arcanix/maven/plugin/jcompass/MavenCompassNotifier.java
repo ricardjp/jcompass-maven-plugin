@@ -27,6 +27,21 @@ public final class MavenCompassNotifier implements CompassNotifier {
     }
 
     @Override
+    public void onFileChanged(File file) {
+        this.log.info("File change detected to: " + file.getAbsolutePath());
+    }
+
+    @Override
+    public void onFileCreated(File file) {
+        this.log.info("File creation detected: " + file.getAbsolutePath());
+    }
+
+    @Override
+    public void onFileDeleted(File file) {
+        this.log.info("File deletion detected to: " + file.getAbsolutePath());
+    }
+
+    @Override
     public void onStylesheetSaved(File file) {
         this.log.info("  - File: " + file.getAbsolutePath() + " successfully updated");
     }
