@@ -37,6 +37,18 @@
 
     <build>
 
+        <!-- filtering of README.md to include correct version number on each build -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <targetPath>${project.basedir}</targetPath>
+                <includes>
+                    <include>README.md</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
         <plugins>
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
