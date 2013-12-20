@@ -22,6 +22,12 @@ Maven plugin which allow easy compilation of sass files using the Compass CSS Au
         </executions>
     </plugin>
 
+## Optional parameters
+
+If you wish to skip the execution of jcompass plugin entirely, you can use the property "jcompass.skip" as follow:
+
+    mvn jcompass:update-stylesheets -Djcompass.skip=true
+
 # For example
 
     - src/main/webapp/
