@@ -6,7 +6,7 @@
 
     <groupId>com.arcanix.maven.plugin.jcompass</groupId>
     <artifactId>jcompass-maven-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>maven-plugin</packaging>
 
     <properties>
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>com.arcanix</groupId>
             <artifactId>jcompass</artifactId>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </dependency>
 
         <dependency>
