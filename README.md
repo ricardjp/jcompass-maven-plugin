@@ -10,7 +10,7 @@ Maven plugin which allow easy compilation of sass files using the Compass CSS Au
         <artifactId>jcompass-maven-plugin</artifactId>
         <version>1.1.0</version>
         <configuration>
-            <configFile>/home/ricardjp/workspace-intellij/jcompass-maven-plugin/src/main/webapp/config.rb</configFile>
+            <configFile>${basedir}/src/main/webapp/config.rb</configFile>
         </configuration>
         <executions>
             <execution>
