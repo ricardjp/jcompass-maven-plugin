@@ -8,7 +8,7 @@ Maven plugin which allow easy compilation of sass files using the Compass CSS Au
     <plugin>
         <groupId>com.arcanix.maven.plugin.jcompass</groupId>
         <artifactId>jcompass-maven-plugin</artifactId>
-        <version>1.2.2</version>
+        <version>1.2.4</version>
         <configuration>
             <configFile>${basedir}/src/main/webapp/config.rb</configFile>
         </configuration>
